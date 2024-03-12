@@ -49,7 +49,7 @@ export default {
 @media(max-width: 710px) {
   .title {
     font-size: 20px;
-    line-height: 10px;
+    line-height: 20px;
   }
 }
 </style>
