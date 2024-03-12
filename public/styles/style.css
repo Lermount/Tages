@@ -1,0 +1,63 @@
+@font-face {
+    font-family: SFProDisplay;
+    src: url(../fonts/SFProDisplay.woff) format("woff"), url(../fonts/SFProDisplay.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: SFUIText;
+    src: url(../fonts/SFUIText.woff) format("woff"), url(../fonts/SFUIText.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+a {
+    text-decoration: none
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.container {
+    width: 1488px;
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 103px;
+}
+
+@media(max-width: 1500px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media(max-width: 710px) {
+    .container {
+        width: 300px;
+        padding-bottom: 32px;
+    }
+}
